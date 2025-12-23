@@ -38,7 +38,6 @@ ol {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding: 120px 0;
 }
 
 /* ====== HEADER ====== */
@@ -175,7 +174,9 @@ header {
   display: flex;
   gap: 24px;
 }
-
+.section-feature {
+  padding: 120px 0;
+}
 .section-item {
 }
 
@@ -198,6 +199,7 @@ header {
 
 .our-team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .section-title-team {
   line-height: 1.11;
@@ -247,6 +249,9 @@ header {
 }
 
 /* ====== OUR PORTFOLIO ====== */
+.section-portfolio {
+  padding: 120px 0;
+}
 .section-title {
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -279,7 +284,6 @@ header {
   flex-wrap: wrap;
   gap: 48px 24px;
   list-style: none;
-  margin-bottom: 120px;
 }
 
 .text-portfolio {
@@ -308,6 +312,7 @@ header {
 /* ====== FOOTER ====== */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer .caption-text {
@@ -326,20 +331,17 @@ header {
   font-size: 18px;
 }
 
-.container-footer {
+.container .container-footer {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   max-width: 1158px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 .caption-text {
   max-width: 264px;
-  padding-bottom: 100px;
 }
 
 .footer .logo {
-  padding-top: 100px;
   padding-bottom: 16px;
 }
