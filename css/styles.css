@@ -35,10 +35,10 @@ ol {
 
 .container {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
+  padding: 120px 0;
 }
 
 /* ====== HEADER ====== */
@@ -115,11 +115,11 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
 }
 .ef-sol {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .ef-sol-title {
   line-height: 1.07;
@@ -129,8 +129,7 @@ header {
   font-size: 56px;
   max-width: 496px;
   margin: 0 auto;
-  margin-top: 188px;
-  margin-bottom: 48px;
+  margin: 0 0 48px;
 }
 
 .ef-sol-btn {
@@ -142,8 +141,9 @@ header {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   padding: 16px 32px;
-  margin-bottom: 188px;
+  margin: 0;
   border-radius: 4px;
+  border: none;
 }
 
 .ef-sol-btn:hover {
@@ -173,14 +173,10 @@ header {
 }
 .list-item {
   display: flex;
-  gap: 0;
+  gap: 24px;
 }
 
 .section-item {
-  display: inline-block;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-right: 24px;
 }
 
 .section-subtitle {
@@ -209,7 +205,7 @@ header {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .list-item {
@@ -218,8 +214,7 @@ header {
 .section-item-team {
   width: 264px;
   background-color: #fff;
-  margin-right: 24px;
-  margin-bottom: 120px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-img {
@@ -232,7 +227,7 @@ header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 32px;
+
   padding-bottom: 8px;
   margin-right: 49px;
   margin-left: 49px;
@@ -243,9 +238,12 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
+
   margin-right: 68px;
   margin-left: 68px;
+}
+.text-card {
+  margin: 32px 0;
 }
 
 /* ====== OUR PORTFOLIO ====== */
@@ -255,7 +253,7 @@ header {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .portfolio-item {
