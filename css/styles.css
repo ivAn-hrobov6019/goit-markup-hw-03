@@ -178,6 +178,7 @@ header {
   padding: 120px 0;
 }
 .section-item {
+  max-width: 264px;
 }
 
 .section-subtitle {
@@ -220,6 +221,8 @@ header {
 }
 
 .team-img {
+  display: block;
+  max-width: 100%;
 }
 
 .section-subtitle-team {
@@ -231,8 +234,6 @@ header {
   font-weight: 500;
 
   padding-bottom: 8px;
-  margin-right: 49px;
-  margin-left: 49px;
 }
 
 .caption-text-team {
@@ -240,12 +241,9 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-
-  margin-right: 68px;
-  margin-left: 68px;
 }
 .text-card {
-  margin: 32px 0;
+  padding: 32px 16px;
 }
 
 /* ====== OUR PORTFOLIO ====== */
